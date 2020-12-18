@@ -1,10 +1,11 @@
 {
   "name": "oidc-client",
-  "version": "1.10.1",
+  "version": "1.10.0",
   "description": "OpenID Connect (OIDC) & OAuth2 client library",
   "main": "lib/oidc-client.min.js",
   "scripts": {
     "build": "gulp",
+    "prepare": "gulp",
     "start": "node samples/VanillaJS/server.js",
     "test": "mocha --compilers js:babel-register test/unit/*.spec.js",
     "all": "gulp build & mocha --compilers js:babel-register test/unit/*.spec.js"
